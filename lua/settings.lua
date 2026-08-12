@@ -8,5 +8,9 @@ vim.opt.wrap = true
 
 
 -- Keybinds
-vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', { desc='Write File' })
-vim.keymap.set('n', '<leader>q', '<cmd>quit<cr>', { desc='Quit File' })
+vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', { desc='Write' })
+vim.keymap.set('n', '<leader>q', '<cmd>quit<cr>', { desc='Quit' })
+
+vim.keymap.set('n', 'y', '"+y')
+vim.keymap.set('v', 'y', '"+y')
+
