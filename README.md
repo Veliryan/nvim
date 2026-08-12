@@ -1,4 +1,5 @@
 # Neovim Config
+This Config was largely made with AI.
 I have no idea what to write, so here is some ASCII Art ^^
 
 *Art Removed due to weird wrapping*
