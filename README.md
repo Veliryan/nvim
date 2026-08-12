@@ -10,7 +10,7 @@ I have no idea what to write, so here is some ASCII Art ^^
 - ripgrep
 - fd
 - curl
-- gcc/clang
+- gcc
 - node
 - npm
 - python
