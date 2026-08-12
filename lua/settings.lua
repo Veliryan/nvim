@@ -14,3 +14,5 @@ vim.keymap.set('n', '<leader>q', '<cmd>quit<cr>', { desc='Quit' })
 vim.keymap.set('n', 'y', '"+y')
 vim.keymap.set('v', 'y', '"+y')
 
+vim.keymap.set('n', 'sv', '<cmd>vsplit<cr>', { desc='Vertical Split' })
+vim.keymap.set('n', 'sh', '<cmd>split<cr>', { desc='Horizontal Split' })
