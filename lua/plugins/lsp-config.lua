@@ -19,11 +19,6 @@ return {
         "bashls",
         "clangd",
         "pyright",
-        "jdtls",
-        "kotlin_language_server",
-	"html", -- html
-	"cssls", -- cssls
-	"denols", -- denols
       },
 
       automatic_enable = true,

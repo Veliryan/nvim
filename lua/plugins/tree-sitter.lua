@@ -11,13 +11,7 @@ return {
         "bash",
         "c",
         "cpp",
-        "java",
-        "kotlin",
         "python",
-	"html",
-	"css",
-	"javascript",
-	"typescript",
       },
 
       highlight = {
