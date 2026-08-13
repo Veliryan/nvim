@@ -19,6 +19,10 @@ return {
                 "bashls",
                 "clangd",
                 "pyright",
+                "html",
+                "cssls",
+                "ts_ls",
+                "jsonls",
             },
 
             automatic_enable = true,
