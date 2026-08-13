@@ -12,6 +12,17 @@ return {
                 "c",
                 "cpp",
                 "python",
+
+                "markdown",
+                "markdown_inline",
+
+                "html",
+                "css",
+                "javascript",
+                "typescript",
+                "tsx",
+                "json",
+                "jsonc",
             },
 
             highlight = {
@@ -21,6 +32,8 @@ return {
             indent = {
                 enable = true,
             },
+
+            auto_install = true,
         },
     },
 }
