@@ -1,26 +1,26 @@
 return {
-  {
-    "nvim-treesitter/nvim-treesitter",
-    branch = "master",
-    lazy = false,
-    build = ":TSUpdate",
+    {
+        "nvim-treesitter/nvim-treesitter",
+        branch = "master",
+        lazy = false,
+        build = ":TSUpdate",
 
-    opts = {
-      ensure_installed = {
-        "lua",
-        "bash",
-        "c",
-        "cpp",
-        "python",
-      },
+        opts = {
+            ensure_installed = {
+                "lua",
+                "bash",
+                "c",
+                "cpp",
+                "python",
+            },
 
-      highlight = {
-        enable = true,
-      },
+            highlight = {
+                enable = true,
+            },
 
-      indent = {
-        enable = true,
-      },
+            indent = {
+                enable = true,
+            },
+        },
     },
-  },
 }

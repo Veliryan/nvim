@@ -1,4 +1,4 @@
 return {
-	'rebelot/kanagawa.nvim',
-	lazy = false,
+    'rebelot/kanagawa.nvim',
+    lazy = false,
 }

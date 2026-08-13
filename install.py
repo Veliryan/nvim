@@ -86,7 +86,7 @@ def FindPackageManager():
         for manager in ("pacman", "dnf", "apt-get"):
             if shutil.which(manager):
                 return manager
-    
+
     return None
 
 
@@ -131,7 +131,7 @@ def main():
     print("Checking Packages: ")
 
     missing_packages = FindMissingPackages(package_manager)
-    
+
     if len(missing_packages) > 0:
         print("Missing Packages Found:")
         for package in missing_packages:
@@ -139,7 +139,7 @@ def main():
     else:
         print("No missing packages Found")
         return
-    
+
     print("")
     answer = input("Would you like to install the Missing Packages?(y/n)")
 
