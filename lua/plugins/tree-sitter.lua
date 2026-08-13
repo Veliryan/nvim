@@ -14,6 +14,10 @@ return {
         "java",
         "kotlin",
         "python",
+	"html",
+	"css",
+	"javascript",
+	"typescript",
       },
 
       highlight = {
