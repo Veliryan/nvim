@@ -1,11 +1,9 @@
 neovim
 git
-luarocks
-nerdfont
 ripgrep
 fd
-devicons
 tar
 curl
 tree-sitter-cli (not installed via npm)
 gcc
+npm
