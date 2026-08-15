@@ -1,4 +1,4 @@
--- Almost all Plugin Specific Keybinds are found inside the plugins/<plugin>.lua
+	-- Almost all Plugin Specific Keybinds are found inside the <plugin>.lua
 
 -- File Keybinds
 -- save/quit --
@@ -8,8 +8,9 @@ vim.keymap.set('n', '<leader>q', '<cmd>quit<cr>', { desc = 'Close' })
 
 -- Split Keybinds
 -- creation --
-vim.keymap.set('n', '<leader>sv', '<cmd>vsplit<cr><cmd>wincmd l<cr>', { desc = 'Vertical Split' })
-vim.keymap.set('n', '<leader>sh', '<cmd>split<cr><cmd>wincmd j<cr>', { desc = 'Horizontal Split' })
+vim.keymap.set('n', '<leader>sv', '<cmd>rightbelow vsplit<cr>', { desc = 'Vertical Split' })
+vim.keymap.set('n', '<leader>sh', '<cmd>rightbelow split<cr>', { desc = 'Horizontal Split' })
+vim.keymap.set('n', '<leader>st', '<cmd>rightbelow vsplit | terminal<cr>i', { desc = 'Terminal Split' })
 
 -- movement --
 vim.keymap.set('n', '<leader><LEFT>', '<cmd>wincmd h<cr>', { desc = 'Focus Left Split' })
@@ -18,3 +19,11 @@ vim.keymap.set('n', '<leader><UP>', '<cmd>wincmd k<cr>', { desc = 'Focus Up Spli
 vim.keymap.set('n', '<leader><DOWN>', '<cmd>wincmd j<cr>', { desc = 'Focus Down Split' })
 
 
+-- Clipboard
+vim.keymap.set('n', '<leader>y', '"+y')
+vim.keymap.set('v', '<leader>y', '"+y')
+
+
+-- Terminal
+-- escape terminal --
+vim.keymap.set('t', '<Esc>', '<C-\\><C-n>')
