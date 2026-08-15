@@ -16,15 +16,10 @@ return {
       fast_wrap = {
         map = "<M-e>",
         chars = { "{", "[", "(", '"', "'" },
-        pattern = [=[[%'%"%>%]%)%}%,]]=],
         end_key = "$",
         before_key = "h",
         after_key = "l",
-        cursor_pos_before = true,
-        keys = "qwertyuiopasdfghjklzxcvbnm",
         manual_position = true,
-        highlight = "Search",
-        highlight_grey = "Comment",
       },
 
       disable_filetype = {
@@ -32,40 +27,20 @@ return {
         "spectre_panel",
       },
     },
+  },
 
-    config = function(_, opts)
-      local npairs = require("nvim-autopairs")
-
-      npairs.setup(opts)
-
-      local Rule = require("nvim-autopairs.rule")
-
-      npairs.add_rules({
-        Rule('"', '"', {
-          "lua",
-          "javascript",
-          "javascriptreact",
-          "typescript",
-          "typescriptreact",
-          "python",
-          "rust",
-          "go",
-          "c",
-          "cpp",
-        }),
-        Rule("'", "'", {
-          "lua",
-          "javascript",
-          "javascriptreact",
-          "typescript",
-          "typescriptreact",
-          "python",
-          "rust",
-          "go",
-          "c",
-          "cpp",
-        }),
-      })
-    end,
+  {
+    "windwp/nvim-ts-autotag",
+    ft = {
+      "html",
+      "xml",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "vue",
+      "svelte",
+    },
+    opts = {},
   },
 }
