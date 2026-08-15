@@ -9,15 +9,15 @@ vim.keymap.set('n', '<leader>x', '<cmd>quitall!<cr>', { desc = 'Quitall' })
 
 -- Split Keybinds
 -- creation --
-vim.keymap.set('n', '<leader>sv', '<cmd>rightbelow vsplit<cr>', { desc = 'Vertical Split' })
-vim.keymap.set('n', '<leader>sh', '<cmd>rightbelow split<cr>', { desc = 'Horizontal Split' })
-vim.keymap.set('n', '<leader>st', '<cmd>rightbelow vsplit | terminal<cr>i', { desc = 'Terminal Split' })
+vim.keymap.set('n', '<leader>sv', '<cmd>rightbelow vsplit<cr>', { desc = 'Vertical Spllit' })
+vim.keymap.set('n', '<leader>sh', '<cmd>rightbelow split<cr>', { desc = 'Horizontal Spllit' })
+vim.keymap.set('n', '<leader>st', '<cmd>rightbelow vsplit | terminal<cr>i', { desc = 'Terminal Spllit' })
 
 -- movement --
-vim.keymap.set('n', '<leader><LEFT>', '<cmd>wincmd h<cr>', { desc = 'Focus Left Split' })
-vim.keymap.set('n', '<leader><RIGHT>', '<cmd>wincmd l<cr>', { desc = 'Focus Right Split' })
-vim.keymap.set('n', '<leader><UP>', '<cmd>wincmd k<cr>', { desc = 'Focus Up Split' })
-vim.keymap.set('n', '<leader><DOWN>', '<cmd>wincmd j<cr>', { desc = 'Focus Down Split' })
+vim.keymap.set('n', '<leader><LEFT>', '<cmd>wincmd h<cr>', { desc = 'Focus Left Spllit' })
+vim.keymap.set('n', '<leader><RIGHT>', '<cmd>wincmd l<cr>', { desc = 'Focus Right Spllit' })
+vim.keymap.set('n', '<leader><UP>', '<cmd>wincmd k<cr>', { desc = 'Focus Up Spllit' })
+vim.keymap.set('n', '<leader><DOWN>', '<cmd>wincmd j<cr>', { desc = 'Focus Down Spllit' })
 
 -- slow resize --
 vim.keymap.set('n', '<M-Left>', '<cmd>vertical resize +2<cr>', { desc = 'Decrease Split Width' })
