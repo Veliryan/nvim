@@ -1,0 +1,7 @@
+neovim
+git
+luarocks
+nerdfont
+ripgrep
+fd
+devicons
