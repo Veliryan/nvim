@@ -16,6 +16,8 @@ local packages = {
     { package = "tree-sitter", command = "tree-sitter" },
     { package = "gcc",         command = "gcc" },
     { package = "npm",         command = "npm" },
+    { package = "zip",         command = "zip" },
+    { package = "unzip",       command = "unzip" },
   },
 
   dnf = {
@@ -28,6 +30,8 @@ local packages = {
     { package = "tree-sitter-cli", command = "tree-sitter" },
     { package = "gcc",             command = "gcc" },
     { package = "npm",             command = "npm" },
+    { package = "zip",             command = "zip" },
+    { package = "unzip",           command = "unzip" },
   },
 
   ["apt-get"] = {
@@ -40,6 +44,8 @@ local packages = {
     { package = "tree-sitter-cli", command = "tree-sitter" },
     { package = "gcc",             command = "gcc" },
     { package = "npm",             command = "npm" },
+    { package = "zip",             command = "zip" },
+    { package = "unzip",           command = "unzip" },
   },
 
   brew = {
@@ -52,6 +58,8 @@ local packages = {
     { package = "tree-sitter-cli", command = "tree-sitter" },
     { package = "gcc",             command = "gcc" },
     { package = "node",            command = "npm" },
+    { package = "zip",             command = "zip" },
+    { package = "unzip",           command = "unzip" },
   },
 }
 
