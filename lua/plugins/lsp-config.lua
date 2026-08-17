@@ -89,6 +89,10 @@ return {
           capabilities = capabilities,
         },
 
+        nushell = {
+          capabilities = capabilities,
+        },
+
         clangd = {
           capabilities = capabilities,
 
