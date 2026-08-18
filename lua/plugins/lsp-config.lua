@@ -51,8 +51,8 @@ return {
           end,
         },
         mapping = cmp.mapping.preset.insert({
-          ["<C-Up>"] = cmp.mapping.select_prev_item(),
-          ["<C-Down>"] = cmp.mapping.select_next_item(),
+          ["<C-k>"] = cmp.mapping.select_prev_item(),
+          ["<C-j>"] = cmp.mapping.select_next_item(),
 
           ["<Up>"] = cmp.mapping(function(fallback)
             fallback()
@@ -62,7 +62,7 @@ return {
             fallback()
           end),
 
-          ["<C-Right>"] = cmp.mapping.confirm({
+          ["<C-l>"] = cmp.mapping.confirm({
             select = true,
           }),
 
