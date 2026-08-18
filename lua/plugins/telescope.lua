@@ -22,11 +22,12 @@ return {
       }
       require("telescope").load_extension "file_browser"
 
-      vim.keymap.set('n', '<leader>ls', '<cmd>Telescope file_browser<cr>', { desc = 'Telescope file brower' })
+      vim.keymap.set('n', '<leader>ls', '<cmd>Telescope file_browser<cr><cmd>stopinsert<cr>', { desc = 'Telescope file brower' })
       vim.keymap.set("n", "<leader>ll", function()
         require("telescope").extensions.file_browser.file_browser({
           path = vim.fn.expand("%:p:h"),
           select_buffer = true,
+          vim.cmd("stopinsert")
         })
       end, { desc = "File browser at current file" })
 
