@@ -11,7 +11,7 @@ vim.keymap.set('n', '<leader>x', '<cmd>quitall!<cr>', { desc = 'Quitall' })
 -- creation --
 vim.keymap.set('n', '<leader>sv', '<cmd>rightbelow vsplit<cr>', { desc = 'Vertical Spllit' })
 vim.keymap.set('n', '<leader>sh', '<cmd>rightbelow split<cr>', { desc = 'Horizontal Spllit' })
-vim.keymap.set('n', '<leader>st', '<cmd>rightbelow vsplit | terminal<cr>i', { desc = 'Terminal Spllit' })
+vim.keymap.set('n', '<leader>st', '<cmd>rightbelow vsplit | terminal<cr>', { desc = 'Terminal Spllit' })
 
 -- movement --
 vim.keymap.set('n', '<leader>h', '<cmd>wincmd h<cr>', { desc = 'Focus Left Spllit' })
