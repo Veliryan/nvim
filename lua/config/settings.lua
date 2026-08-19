@@ -1,4 +1,5 @@
-vim.cmd("colorscheme rose-pine-moon")
+-- vim.cmd('TransparentEnable')
+vim.cmd("colorscheme onenord")
 
 vim.opt.number = true
 vim.opt.relativenumber = true

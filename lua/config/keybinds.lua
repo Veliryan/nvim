@@ -6,7 +6,6 @@ vim.keymap.set('n', '<leader>w', '<cmd>write<cr>', { desc = 'Write' })
 vim.keymap.set('n', '<leader>q', '<cmd>quit<cr>', { desc = 'Close' })
 vim.keymap.set('n', '<leader>x', '<cmd>quitall!<cr>', { desc = 'Quitall' })
 
-
 -- @nav: Keybind - Split
 -- creation --
 vim.keymap.set('n', '<leader>sv', '<cmd>rightbelow vsplit<cr>', { desc = 'Vertical Spllit' })
