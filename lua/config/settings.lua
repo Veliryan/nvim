@@ -1,5 +1,5 @@
 -- vim.cmd('TransparentEnable')
-vim.cmd("colorscheme onenord")
+vim.cmd("colorscheme catppuccin")
 
 vim.opt.number = true
 vim.opt.relativenumber = true

@@ -37,6 +37,7 @@ return {
           "lua_ls",
           "taplo",
           "jsonls",
+          "jdtls",
         },
       })
 
@@ -94,12 +95,12 @@ return {
         nushell = {
           capabilities = capabilities,
         },
-        
+
         taplo = {
           capabilities = capabilities,
         },
-        
-        bashls = {
+
+        jdtls = {
           capabilities = capabilities,
         },
 
